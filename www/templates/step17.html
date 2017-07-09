@@ -1,0 +1,26 @@
+<ion-view name=step17-view>
+<ion-content>
+<div class="progressingDiv">
+    <div class="progressingInsideDiv" style="width:51%;"><p class="transparentText">t </p></div></div>
+  </ion-content> 
+  <ion-content class="containQuestion">
+ 
+     <h3 class="questionText">{{QEpilepsy}}</h3>  
+     <p>L'épilepsie impose un traitement qui doit parfois être adapté en cas de grossesse. Il est indispensable que vous soyez informée, avant d'être enceinte, afin d'anticiper la nature de votre prise en charge.</p>
+    <form name="check" ng-submit="Submit(yes, no)" novalidate="">
+      <div class="buttons">
+        <ion-list>
+           <div id="yesCheck11" class=checkboxValid>
+            <ion-checkbox ng-checked="yesc" ng-click="checked(yes, no)" ng-model="yes">Oui</ion-checkbox>
+          </div>
+          <div id="noCheck11" class=checkboxValid>
+            <ion-checkbox ng-checked="noc" ng-click="checked(yes, no)" ng-model="no">Non</ion-checkbox>
+          </div>
+        </ion-list>
+      </div>    
+      <div class="buttonValid">
+        <button type="Submit" class="button">Valider</button>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>

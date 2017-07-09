@@ -1,0 +1,26 @@
+<ion-view name=step18-view>
+<ion-content>
+  <div class="progressingDiv">
+    <div class="progressingInsideDiv" style="width:54%;"><p class="transparentText">t </p></div></div>
+  </ion-content> 
+  <ion-content class="containQuestion">
+ 
+     <h3 class="questionText">{{QPhlebitis}}</h3>    
+     <p>la phlébite est l'existence d'un caillot de sang dans une veine. Votre état de femme enceinte augmente votre risque de développer une phlébite, jusqu'à 6 semaines après l'accouchement. </p>
+    <form name="check" ng-submit="Submit(yes, no)" novalidate="">
+      <div class="buttons">
+        <ion-list>
+        <div id="yesCheck12" class=checkboxValid>
+            <ion-checkbox ng-checked="yesc" ng-click="checked(yes, no)" ng-model="yes">Oui</ion-checkbox>
+          </div>
+          <div id="noCheck12" class=checkboxValid>
+            <ion-checkbox ng-checked="noc" ng-click="checked(yes, no)" ng-model="no">Non</ion-checkbox>
+          </div>
+        </ion-list>
+      </div>    
+      <div class="buttonValid">
+        <button type="Submit" class="button">Valider</button>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>

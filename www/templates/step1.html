@@ -1,0 +1,15 @@
+<ion-view name=step1-view>
+  <ion-content>
+<div class="progressingDiv">
+    <div class="progressingInsideDiv" style="width:3%;"><p class="transparentText">t </p></div></div>
+</div>
+  </ion-content> 
+  <ion-content class="containQuestion">
+      <h3 class="questionText">{{QAge}}</h3>
+      <p>Il est important de nous indiquer votre âge car plus celui-ci est élevé, plus les risques de complications obstétricales sont importants pour le foetus comme pour vous.  </p>
+      <input class="numberInput" type=number ng-model=HAge placeholder=>
+      <div class="buttonValid">
+      <button class=button button-block button-calm ng-click=nb(HAge)>Valider</button>
+    </div>
+  </ion-content>
+</ion-view>
