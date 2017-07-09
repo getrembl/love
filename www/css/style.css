@@ -1,16 +1,18 @@
+
 /* Empty. Add your own CSS if you like */
   .header_logo {
-    max-width: 100%;
-    height: 12%;
   }
-  .first_line{
-    max-width: 75%;
+  .first_line img{
+    width: 20%;
     text-align: center;
   }
-  .second_line {
-    max-width: 89%;
+  .second img{
+    width: 20%;
+    text-align: right;
   }
   .third_line {
+    width: 20%;
+
   }
 
 .resultDivRisk {
